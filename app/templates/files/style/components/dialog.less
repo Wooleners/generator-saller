@@ -1,0 +1,156 @@
+@dialogPrefixCls: pas-dialog;
+.@{dialogPrefixCls} {
+  & {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    height: 130%;
+    background: rgba(0,0,0,.7);
+    z-index: 999;
+  }
+  &-hidden {
+    display: none;
+  }
+  & .box {
+    position: relative;
+    margin: 30% 30px 0;
+    padding: 5px;
+    background: url("@{images-url}/popup-bg.png");
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0,0,0,.2) inset;
+  }
+  & .box .content {
+    position: relative;
+    margin-top: 20px;
+    min-height: 200px;
+    background: #fff;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0,0,0,.2) inset;
+    margin-top: 30px;
+  }
+  & .close {
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    background: url("@{images-url}/close-icon.png") no-repeat;
+    background-size: 100%;
+    top: -20px;
+    right: -15px;
+  }
+  & .top-icon {
+    position: absolute;
+    display: inline-block;
+    width: 100px;
+    height: 100px;
+    top: -75px;
+    left: 20px;
+  }
+  & .top-icon img {
+    display: block;
+    width: 100%;
+  }
+  .popup-tit {
+    position: absolute;
+    margin-left: 5px;
+    margin-top: 3px;
+  }
+
+  /*popup mv*/
+  .mv-word {
+    text-align: center;
+    padding-top: 40px;
+    margin: 0 auto;
+    padding-bottom: 20px;
+  }
+  .mv-word img {
+    display: inline-block;
+    width: 85%;
+  }
+  .mv-btn {
+    text-align: center;
+    padding-top: 40px;
+  }
+  .mv-btn1-l,
+  .mv-btn1-r {
+    display: inline-block;
+    width: 96px;
+    height: 27px;
+    background: url("@{images-url}/mv-btn1.png") no-repeat;
+    background-size: 211px 27px;
+  }
+  .mv-btn1-l {
+    background-position: left center;
+    margin-right: 5px;
+  }
+  .mv-btn1-r {
+    background-position: right center;
+    margin-left: 5px;
+  }
+  .share {
+    margin: 15px auto 10px;
+    width: 100px;
+    height: 50px;
+    background: url("@{images-url}/share.png") no-repeat;
+  }
+  .expHealthManager {
+    margin-right: 20px;
+    width: 150px;
+    display: inline-block;
+    height: 25px;
+    background: url("@{images-url}/healthManager.png") no-repeat;
+    background-size: 100%;
+  }
+  .dialogContent img {
+    width: 85%;
+  }
+  .btnContent {
+    margin-top: 25px;
+  }
+  .overExpHealthManager {
+    margin-right: 20px;
+    margin: 30px auto 10px;
+    width: 315px;
+    height: 50px;
+    background: url("@{images-url}/healthManager.png") no-repeat;
+  }
+  .loginTOA {
+    margin-right: 20px;
+    width: 150px;
+    display: inline-block;
+    height: 25px;
+    background: url("@{images-url}/loginTOA.png") no-repeat;
+    background-size: 100%;
+  }
+  .backGamesZone {
+    width: 315px;
+    height: 50px;
+    margin: 15px auto 10px;
+    background: url("@{images-url}/backGameZone.png") no-repeat;
+  }
+  .loginShare {
+    display: inline-block;
+    width: 46px;
+    height: 25px;
+    background: url("@{images-url}/share.png") no-repeat;
+    background-size: 100%;
+  }
+  .yetShare {
+    display: inline-block;
+    width: 46px;
+    height: 25px;
+    background: url("@{images-url}/share.png") no-repeat;
+    background-size: 100%;
+  }
+  .mv-btn-ok {
+    display: inline-block;
+    width: 96px;
+    height: 27px;
+    background: url("@{images-url}/btn-ok.png") no-repeat;
+    background-size: 100%;
+  }
+}
+.@{dialogPrefixCls}-link {
+
+}
